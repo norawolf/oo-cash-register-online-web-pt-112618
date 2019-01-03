@@ -14,7 +14,7 @@ class CashRegister
     @@items << title
   end
 
-  def list
+  def self.list
     @@items
   end
 
